@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" class="button green medium">产品详情</a>

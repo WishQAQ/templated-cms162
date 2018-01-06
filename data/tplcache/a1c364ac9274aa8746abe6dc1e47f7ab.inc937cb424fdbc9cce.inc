@@ -1,0 +1,11 @@
+<?php
+$z[0]=Array("picname","",47,63);
+$z[1]=Array("title","",103,117);
+$z[2]=Array("arcurl","",314,329);
+$z[3]=Array("title","",338,352);
+$z[4]=Array("title","",370,384);
+$z[5]=Array("description","",428,448);
+$z[6]=Array("pubdate","",491,538);
+$z[6][4]['function']="MyDate('Y-m-d',@me)";
+
+?>

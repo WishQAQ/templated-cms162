@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]" target="_blank"><img onload="loadImage(this,244,367);" src="[field:picname/]" style="width: 244px; height: 366.917293233083px; padding: 0px;"></a></li>

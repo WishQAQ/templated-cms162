@@ -1,0 +1,36 @@
+﻿<div class="footer">
+    <div class="wrap">
+      <div class="footer-nav clearfix">
+        <div class="website fl">
+          <div id="Panel_140" class="" style="clear:both;overflow:hidden;"> <span>友情链接：</span> 
+         {dede:flink titlelen='20' row='10' type='text'}  [field:link /]  {/dede:flink}<a href="http://www.zhanoo.com/" target="_blank">织梦</a>
+          </div>
+        </div>
+        <div class="webmaps fr">
+        {dede:channelartlist typeid='1'}
+        <a href="{dede:field name='typeurl'/}"><span>{dede:field name='typename'/}</span></a>
+       {/dede:channelartlist}
+       </div>
+      </div>
+      <div class="footer-main clearfix">
+        <div class="copyright fl">
+          <div class="con">
+            {dede:global.cfg_dz/}
+          </div>
+          <div class="con last">
+            <p>{dede:global.cfg_powerby/} 
+               </p>
+            <p>{dede:global.cfg_beian/}</p>
+          </div>
+        </div>
+        <div class="contact fl"> <span>免费热线：</span>
+          <p class="tel">{dede:global.cfg_tel/}</p>
+          <span>电子邮箱：</span>
+          <p class="mail">{dede:global.em/}</p>
+        </div>
+        <div class="ewm fr">
+          <div class="img"> <img src="{dede:global.cfg_templets_skin/}/images/kf_ewm.jpg" style="width:122px;"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
